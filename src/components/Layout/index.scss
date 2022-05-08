@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+
+  div.sidebar {
+    flex: 2;
+  }
+
+  main {
+    flex: 8;
+    
+    section {
+      padding: 1rem;
+    }
+  }
+}

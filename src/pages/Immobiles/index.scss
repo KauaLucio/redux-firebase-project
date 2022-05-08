@@ -1,0 +1,32 @@
+
+
+.available {
+  background-color: #0be204;
+  color: #fff;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.occupied {
+  background-color: #fa1f1a;
+  color: #fff;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.info-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.31rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: #3366FF;
+  color: #fff;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: #254EDB;
+  }
+
+}
